@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input id="toggle" type="checkbox" />
+          <label class="backdrop" for="toggle"></label>
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Show me more</a></li>
+          </ul>
+  
+        </div>
+        <div id="menuDesktop">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Show me more</a></li>
+            </ul>
+        </div>
+      </nav>
+
+  <div id="carusel-block">
+    <h1>Game dev tutorial</h1>
+
+    <p>Here we will build a game from srach on Asembly.</p>
+
+    <section class="carousel" aria-label="Gallery">
+      <ol class="carousel__viewport">
+        <li id="carousel__slide1"
+            tabindex="0"
+            class="carousel__slide">
+          <div class="bg-image" style="background-image: url('https://www.european-agency.org/sites/default/files/styles/large/public/2018-03/netherlands.jpg?itok=JTasjiuj');"></div>
+          <img class="carousel__image" src="https://www.european-agency.org/sites/default/files/styles/large/public/2018-03/netherlands.jpg?itok=JTasjiuj"/>
+          <div class="carousel__snapper">
+            <a href="#carousel__slide4"
+              class="carousel__prev">Go to last slide</a>
+            <a href="#carousel__slide2"
+              class="carousel__next">Go to next slide</a>
+          </div>
+        </li>
+        <li id="carousel__slide2"
+            tabindex="0"
+            class="carousel__slide">
+          <div class="bg-image" style="background-image: url('https://media.cntraveller.com/photos/611beb77a954a4e571f6f144/4:3/w_2664,h_1998,c_limit/amsterdam-netherlands-gettyimages-869419386.jpg');"></div>
+          <img class="carousel__image" src="https://media.cntraveller.com/photos/611beb77a954a4e571f6f144/4:3/w_2664,h_1998,c_limit/amsterdam-netherlands-gettyimages-869419386.jpg"/>
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide1"
+            class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide3"
+            class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide3"
+            tabindex="0"
+            class="carousel__slide">
+          <div class="bg-image" style="background-image: url('https://www.vistra.com/sites/default/files/2019-03/Amsterdam_0.jpg');"></div>
+          <img class="carousel__image" src="https://www.vistra.com/sites/default/files/2019-03/Amsterdam_0.jpg"/>
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide2"
+            class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide4"
+            class="carousel__next">Go to next slide</a>
+        </li>
+        <li id="carousel__slide4"
+            tabindex="0"
+            class="carousel__slide">
+          <div class="bg-image" style="background-image: url('https://www.globalcompliancenews.com/wp-content/uploads/sites/43/2018/05/Amsterdam.jpg');"></div>
+          <img class="carousel__image" src="https://www.globalcompliancenews.com/wp-content/uploads/sites/43/2018/05/Amsterdam.jpg"/>
+          <div class="carousel__snapper"></div>
+          <a href="#carousel__slide3"
+            class="carousel__prev">Go to previous slide</a>
+          <a href="#carousel__slide1"
+            class="carousel__next">Go to first slide</a>
+        </li>
+      </ol>
+    </section>
+  </div>
+</body>
+</html>
