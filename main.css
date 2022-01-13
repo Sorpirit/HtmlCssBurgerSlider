@@ -1,3 +1,13 @@
+* {
+  --color-bg: #e9e9dd;
+  --color-main: #cdcdcd;
+  --color-secondary: #f99;
+  --color-carousel-slide: #fff;
+  --color-highlight: #232323;
+  --color-highlight-second: #cdcdcd;
+  --color-menu: #9CA3DB;
+}
+
 @keyframes tonext {
     75% {
       left: 0;
@@ -46,8 +56,8 @@
   body {
     margin: 0;
     padding: 0;
-    background: #232323;
-    color: #cdcdcd;
+    background: var(--color-bg);
+    color: var(--color-main);
     font-family: "Avenir Next", "Avenir", sans-serif;   
   }
   
@@ -110,7 +120,7 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
+    background-color: var(--color-secondary);
     counter-increment: item;
   }
   
@@ -124,7 +134,7 @@
     top: 50%;
     left: 50%;
     transform: translate3d(-50%,-40%,70px);
-    color: #fff;
+    color: var(--color-carousel-slide);
     font-size: 2em;
   }
   
@@ -219,7 +229,7 @@
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
     background-position: center center;
-    color: #fff;
+    color: var(--color-carousel-slide);
     font-size: 2.5rem;
     line-height: 4rem;
     text-align: center;
@@ -279,7 +289,7 @@
  #menuToggle a
  {
    text-decoration: none;
-   color: #232323;
+   color: var(--color-highlight);
    
    transition: color 0.3s ease;
  }
@@ -318,7 +328,7 @@
    background: #cdcdcd;
    border-radius: 3px;
    
-   z-index: 2;
+   z-index: ;
    
    transform-origin: 4px 0px;
    
@@ -390,7 +400,7 @@
     margin: 5px 10px;
  }
  #menuDesktop li a{
-    color: #cdcdcd;
+    color: var(--color-highlight-second);
  }
  #menuDesktop li a:hover{
     color: tomato;
@@ -415,7 +425,7 @@
     display: none;
     background-color: rgba(0,0,0,0);
     position: fixed;
-    z-index: 0;
+    z-index: 2;
     top: 0;
     left: 0;
     right: 0;
